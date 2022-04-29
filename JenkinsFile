@@ -19,12 +19,12 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World2'
             }
         }
         stage('Release') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World2'
             }
         }
     }
